@@ -1,14 +1,13 @@
 # Setup
 Install Node.js
 We will install the latest LTS release of Node.js, on the app server.
-
 On the app server, let's update the apt-get package lists with this command:
 
 sudo apt-get update
 Then use apt-get to install the git package, which npm depends on:
-
 sudo apt-get install git
-Go to the Node.js Downloads page and find the Linux Binaries (.tar.xz) download link. Right-click it, and copy its link address to your clipboard. At the time of this writing, the latest LTS release is 4.2.3. If you prefer to install the latest stable release of Node.js, go to the appropriate page and copy that link.
+Go to the Node.js Downloads page and find the Linux Binaries (.tar.xz) download link.
+Right-click it, and copy its link address to your clipboard. At the time of this writing, the latest LTS release is 4.2.3. If you prefer to install the latest stable release of Node.js, go to the appropriate page and copy that link.
 
 Change to your home directory and download the Node.js source with wget. Paste the download link in place of the highlighted part:
 
