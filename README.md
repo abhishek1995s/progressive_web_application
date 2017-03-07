@@ -11,7 +11,7 @@ Right-click it, and copy its link address to your clipboard. At the time of this
 
 Change to your home directory and download the Node.js source with wget. Paste the download link in place of the highlighted part:
 
-cd ~
+cd ~ <br>
 wget https://nodejs.org/dist/v4.2.3/node-v4.2.3-linux-x64.tar.gz
 Now extract the tar archive you just downloaded into the node directory with these commands:
 
